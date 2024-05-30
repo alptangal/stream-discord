@@ -12,7 +12,7 @@ const udp = await streamer.createStream({
 udp.mediaConnection.setSpeaking(true);
 udp.mediaConnection.setVideoStatus(true);
 try {
-const res = await streamLivestreamVideo("https://strm.voh.com.vn/radio/channel3/playlist.m3u8", udp);
+const res = await streamLivestreamVideo("ttps://strm.voh.com.vn/radio/channel2/playlist.m3u8", udp);
 
 console.log("Finished playing video " + res);
 } catch (e) {
