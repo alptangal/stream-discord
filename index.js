@@ -12,7 +12,7 @@ const udp = await streamer.createStream({
 udp.mediaConnection.setSpeaking(true);
 udp.mediaConnection.setVideoStatus(true);
 try {
-const res = await streamLivestreamVideo("https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8", udp);
+const res = await streamLivestreamVideo("https://strm.voh.com.vn/radio/channel1/chunklist_w1242202462.m3u8", udp);
 
 console.log("Finished playing video " + res);
 } catch (e) {
